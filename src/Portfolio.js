@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import './Portfolio.css';
 
 export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
@@ -9,6 +8,13 @@ export default function Portfolio() {
   return (
     <div className={darkMode ? "bg-gray-900 text-white" : "bg-white text-gray-900"}>
       <header className="text-center p-8 bg-gray-800 text-white">
+        <img
+          src="/profile.jpg"
+          alt="Nitish Reddy"
+         className="w-[300px] h-[300px] object-cover object-top rounded-full mx-auto mb-4 border-4 border-white shadow-lg"
+
+
+        />
         <h1 className="text-3xl font-bold">Nitish Reddy Sude</h1>
         <p>Computer Science with AI & ML | Neil Gogte Institute of Technology</p>
         <p>
